@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main()
 {
-	float basic , da , ma , hra , pt , total;
+	float basic , da , ma , hra , p_tax , total;
 	printf("enter basic salary : ");
 	scanf("%f", & basic);
 	printf("enter da(in percentage) : ");
