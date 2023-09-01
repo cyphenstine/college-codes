@@ -60,7 +60,7 @@ int main(){
 
 #include <stdio.h>    
 int main ()
-    {
+{
     float num;
     printf("enter your marks : ");
     scanf("%f" , & num);
@@ -93,4 +93,4 @@ int main ()
         printf("sorry , you failed");
     }
     return (0);
-    } 
+} 
