@@ -38,7 +38,7 @@ int main()
 
 #include <stdio.h>
 
-int main() {
+int main(){
     float fahrenheit, celsius;
 
     // Input temperature in Fahrenheit
@@ -53,3 +53,44 @@ int main() {
 
     return 0;
 }
+
+
+//grade system 
+
+
+#include <stdio.h>    
+int main ()
+    {
+    float num;
+    printf("enter your marks : ");
+    scanf("%f" , & num);
+    if (num >= 90)
+    {
+        printf("your grade : O");
+    }
+    else if (num >= 80)
+    {
+        printf("your grade : A");
+    }
+    else if (num >= 70)
+    {
+        printf("your grade : B");
+    }
+    else if (num >= 60)
+    {
+        printf("your grade : C");
+    }
+    else if (num >= 50)
+    {
+        printf("your grade : D");
+    }
+    else if (num >= 40)
+    {
+        printf("your grade : E");
+    }
+    else
+    {
+        printf("sorry , you failed");
+    }
+    return (0);
+    }
