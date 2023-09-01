@@ -30,7 +30,7 @@ int main()
 	printf("interest : %f", i);
 	total = i + p;
 	printf("\nnow total : %f", total);		
-	return(0);
+	return 0;
 }
 
 
@@ -92,5 +92,5 @@ int main ()
     {
         printf("sorry , you failed");
     }
-    return (0);
+    return 0;
 } 
