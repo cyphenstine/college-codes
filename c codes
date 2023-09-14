@@ -102,7 +102,7 @@ int main ()
 #include<stdio.h>
 int main()
 {
-	 float unit , unit1 , bill , sc;
+    float unit , unit1 , bill , sc;
     printf("enter your unit consumtion : ");
     scanf("%f", & unit);
     if (unit > 400)
@@ -127,5 +127,52 @@ int main()
     }
     bill = bill + 100;
     printf("your bill : %f rs", bill);
+	return 0;
+}
+
+
+// #6 calculater using switch case 
+
+
+#include <stdio.h>
+int main ()
+{
+	float n1 , n2 , r;
+	char o;
+	printf(" enter number : ");
+	scanf("%f", &n1);
+	printf("enter number : ");
+	scanf("%f", &n2);
+	printf("operation : ");
+	fflush(stdin);
+	scanf("%c", &o);
+	switch (o)
+	{
+		case '+' :
+			r = n1 + n2;
+			printf("%f", r);
+		break;
+			
+		case '-' :
+			r = n1- n2;
+			printf("%f", r);
+		break;
+		
+		case '*' : 
+			r = n1 * n2;
+			printf("%f", r);
+		break;
+			
+		case '/' : 
+			r = n1 / n2;
+			printf("%f", r);
+		break;
+			
+		default : 
+			printf("error");
+	}
+	
+	
+	
 	return 0;
 }
