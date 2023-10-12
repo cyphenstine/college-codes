@@ -176,3 +176,36 @@ int main ()
 	
 	return 0;
 }
+
+
+// take input in a mattrix and show it
+
+
+#include<stdio.h>
+int main()
+{
+	int mat[10][10],r,c,i,j;
+	printf("rows : ");
+	scanf("%d", &r);
+	printf("colums : ");
+	scanf("%d", &c);
+	for(i=0 ; i<r ; i++)
+	{
+		for(j=0 ; j<c ; j++)
+		{
+			printf("enter : ");
+			scanf("%d", &mat[i][j]);
+		}
+	}
+	printf("mattrix : \n");
+	for(i=0 ; i<r ; i++)
+	{
+		for(j=0 ; j<c ; j++)
+		{
+			printf("%d ", mat[i][j]);
+		}
+		printf("\n");
+	}
+return 0;
+}
+
